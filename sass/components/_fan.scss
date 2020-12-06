@@ -1,0 +1,27 @@
+.fan{
+    padding:5rem 10%;
+
+    &__review{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    &__image{
+        display: block;
+        width: 10rem;
+        border-radius: 50%;
+        margin: 0 5rem;
+    }
+    &__para{
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 140%;
+
+    }
+    &__name{
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top:3rem ;
+        margin-left: 15rem;
+    }
+}

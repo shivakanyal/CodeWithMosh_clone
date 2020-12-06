@@ -1,0 +1,55 @@
+.membership{
+    padding: 6rem;
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &>*{
+            margin-bottom: 2.5rem;
+        }
+    }
+    &__para--1,&__para--2,&__para--3{
+        font-size: 1.8rem;
+    }
+    &__para--1{
+        font-weight: 300;
+    }
+    &__para--2{
+        font-weight: 200;
+    }
+    &__para--3{
+        font-weight: 100;
+    }
+
+    &__details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-cources{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__number{
+        display: block;
+        font-size: 10rem;
+    }
+    &__text{
+        font-size: 1.8rem;
+        // font-weight: 200;
+        color: #777;
+        text-transform: uppercase;
+    }
+    &__slash{
+        display: block;
+        font-size: 13rem;
+        color: #777;
+        font-weight: 100;
+        margin: 0 1.5rem;
+    }
+
+    &__image{
+        display: block;
+    }
+}
